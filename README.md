@@ -18,7 +18,6 @@ A RESTful API built with FastAPI for tracking personal expenses with AI-powered 
 - **Framework**: FastAPI
 - **Database**: MongoDB Atlas (with PyMongo)
 - **Authentication**: JWT (python-jose, passlib)
-- **AI/LLM**: Google Gemini API for category prediction
 
 ## Installation
 
@@ -53,7 +52,6 @@ MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/expense_tracker?
 SECRET_KEY=your-secret-key-here-change-in-production
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
-GEMINI_API_KEY=your-gemini-api-key-here
 ```
 
 6. Get a Gemini API key:

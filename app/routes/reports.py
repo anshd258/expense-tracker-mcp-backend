@@ -45,8 +45,7 @@ def export_csv(
     # Convert user_id to ObjectId for query
     from bson import ObjectId
     user_id = current_user["id"]
-    if isinstance(user_id, str):
-        user_id = ObjectId(user_id)
+
     
     query = {"user_id": user_id}
     
